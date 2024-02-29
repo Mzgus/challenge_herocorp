@@ -1,0 +1,137 @@
+html{
+    background-color: #DDDDDD;
+}
+
+header{
+    text-align: center;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+    width: 17rem;
+}
+
+header h1{
+    display: inline;
+    margin: 1rem;
+    font-size: 4rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header p{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    margin: auto;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+div#cadre{
+    border-top: solid #8B0000;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-bottom: solid #8B0000;
+}
+
+h2{
+    font-weight: bold;
+}
+
+body{
+    background-color: white;
+    margin: 1rem 5rem;
+    border: solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body h2{
+    font-size:2rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+body div#containe{
+    background-color: #D3D3D3;
+    margin: 1rem 10rem;
+    padding: 2rem;
+}
+
+body div#containe img{
+    width: 7rem;
+}
+
+#premier{
+    border-bottom: solid;
+    padding: 1rem 0rem;
+}
+article{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+}
+strong{
+    font-weight: bolder;
+}
+
+#deux{
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+}
+
+h3{
+    text-align: center;
+    color: #8B0000;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    background-color: #D3D3D3;
+    padding: 2rem 0rem 5rem 0rem;
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+#acteurs{
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    margin: 1rem 10rem;
+    text-transform: uppercase;
+}
+
+a{
+    margin: 3px;
+    color: #8B0000;
+    background-color: #D3D3D3;
+    border-radius: 1rem;
+    padding: 0.4rem;
+}
+
+#equipe{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+#equipe p{
+    margin: 1rem;
+}
+
+#equipe div{
+    border: solid #D3D3D3 ;
+    margin: 1rem 38%;
+    padding: 1rem;
+    width: 25%;
+}
+
+#equipe img{
+    width: 98%;
+}
